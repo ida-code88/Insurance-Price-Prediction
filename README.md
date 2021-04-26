@@ -1,6 +1,5 @@
 # Insurance-Price-Prediction
 
-(Comment will follow soon)
 
 ## Content
 
@@ -14,6 +13,14 @@ Columns
 * smoker: Smoking
 * region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
 * charges: Individual medical costs billed by health insurance
+
+## Process
+
+* Import libraries and load the data
+* Exploratory data analysis
+* Create dummy variables
+* Regression model comparison: Linear, Lasso, Ridge, and Elastic Net. Linear regressor gave the best result.
+
 
 ## Source
 https://www.kaggle.com/mirichoi0218/insurance
